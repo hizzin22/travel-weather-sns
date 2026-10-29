@@ -12,10 +12,13 @@ import LanguageSwitcher from '@/components/LanguageSwitcher'
 import ExpandablePostContent from '@/components/ExpandablePostContent'
 
 
-
 type Post = {
   id: string
   user_id: string
+  city_ko: string | null
+  city_en: string | null
+  country_code: string | null
+  location_overridden: boolean
   display_city: string | null
   display_country: string | null
   display_weather_condition: string | null
@@ -57,23 +60,6 @@ type OutfitTag = {
   name_en: string
 }
 
- type Post = {
-  id: string
-  user_id: string
-
-  city_ko: string | null
-  city_en: string | null
-  country_code: string | null
-
-  display_city: string | null
-  display_country: string | null
-  location_overridden: boolean
-  display_weather_condition: string | null
-  display_temperature: number | null
-  weather_feeling: string | null
-  content: string | null
-  created_at: string
-}
 function getWeatherFeelingLabel(
   value: string | null,
   locale: string

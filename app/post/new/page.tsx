@@ -763,7 +763,7 @@ const handleRemoveImage = (
 		  weatherInfo?.temperature ?? null,
 
 		api_feels_like_temperature:
-		  weatherInfo?.feelsLikeTemperature ?? null,
+		  weatherInfo?.feelsLike ?? null,
 
 		api_humidity:
 		  weatherInfo?.humidity ?? null,

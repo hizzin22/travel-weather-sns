@@ -17,6 +17,8 @@ export default function LikeButton({
   initialLiked,
   initialCount,
 }: Props) {
+  const router = useRouter()
+
   const [liked, setLiked] =
     useState(initialLiked)
 
@@ -27,12 +29,10 @@ export default function LikeButton({
     useState(false)
 
   const handleLike = async () => {
-  if (!userId) {
-    router.push('/login')
-    return
-  }
-
-  const router = useRouter()
+    if (!userId) {
+      router.push('/login')
+      return
+    }
 
 
   if (loading) {

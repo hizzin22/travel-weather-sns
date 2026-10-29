@@ -1,0 +1,64 @@
+{
+  "common": {
+    "home": "Home",
+    "search": "Search",
+    "create": "Create",
+    "profile": "Profile",
+    "logout": "Log out"
+  },
+  "profile": {
+    "title": "My Profile",
+    "username": "Username",
+    "email": "Email",
+    "role": "Role",
+    "profileImage": "Profile image"
+  },
+  "post": {
+  "newTitle": "Create post",
+  "currentLocation": "Current location",
+  "loadingLocation": "Checking location...",
+  "getLocation": "Get current location",
+  "locationSuccess": "Current location found.",
+  "city": "City",
+  "country": "Country",
+  "region": "Region",
+
+  "temperature": "Temperature",
+  "feelsLike": "Feels like",
+  "humidity": "Humidity",
+  "windSpeed": "Wind speed",
+  "weatherCondition": "Weather",
+
+  "weather": {
+    "clear": "Clear",
+    "cloudy": "Cloudy",
+    "rain": "Rain",
+    "drizzle": "Drizzle",
+    "snow": "Snow",
+    "thunderstorm": "Thunderstorm",
+    "fog": "Fog",
+    "etc": "Other"
+  },
+
+  "content": "Content",
+  "contentPlaceholder": "Share today's weather and what you're wearing.",
+
+  "weatherFeeling": "How it feels",
+  "weatherFeelingOptions": {
+    "very_cold": "Very cold",
+    "cold": "Cold",
+    "comfortable": "Comfortable",
+    "hot": "Hot",
+    "very_hot": "Very hot"
+  },
+
+  "outfit": "Today's outfit",
+  "outfitLoading": "Loading outfit tags..."
+}
+}
+  },
+  "language": {
+    "ko": "한국어",
+    "en": "English"
+  }
+}

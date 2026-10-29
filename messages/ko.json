@@ -1,0 +1,64 @@
+{
+  "common": {
+    "home": "홈",
+    "search": "검색",
+    "create": "글쓰기",
+    "profile": "마이",
+    "logout": "로그아웃"
+  },
+  "profile": {
+    "title": "마이 프로필",
+    "username": "사용자명",
+    "email": "이메일",
+    "role": "권한",
+    "profileImage": "프로필 이미지"
+  },
+  "post": {
+  "newTitle": "게시물 작성",
+  "currentLocation": "현재 위치",
+  "loadingLocation": "위치 확인 중...",
+  "getLocation": "현재 위치 가져오기",
+  "locationSuccess": "현재 위치를 확인했습니다.",
+  "city": "도시",
+  "country": "국가",
+  "region": "지역",
+
+  "temperature": "기온",
+  "feelsLike": "체감온도",
+  "humidity": "습도",
+  "windSpeed": "풍속",
+  "weatherCondition": "날씨 상태",
+
+  "weather": {
+    "clear": "맑음",
+    "cloudy": "흐림",
+    "rain": "비",
+    "drizzle": "이슬비",
+    "snow": "눈",
+    "thunderstorm": "뇌우",
+    "fog": "안개",
+    "etc": "기타"
+  },
+
+  "content": "내용",
+  "contentPlaceholder": "오늘의 날씨와 옷차림을 공유해보세요.",
+
+  "weatherFeeling": "체감 날씨",
+  "weatherFeelingOptions": {
+    "very_cold": "매우 추움",
+    "cold": "추움",
+    "comfortable": "적당함",
+    "hot": "더움",
+    "very_hot": "매우 더움"
+  },
+
+  "outfit": "오늘의 옷차림",
+  "outfitLoading": "옷차림 태그를 불러오는 중..."
+}
+  }
+  },
+  "language": {
+    "ko": "한국어",
+    "en": "English"
+  }
+}
